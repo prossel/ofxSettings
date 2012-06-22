@@ -1,7 +1,8 @@
 ofxSettings
 ===========
 
-Easy access to standardUserDefaults from C++.
+Easy access to iOS standardUserDefaults from C++. (tested with OpenFrameworks)
+
 Can also be used to set/get any value beyond those you can define in Settings bundle.
 
 Examples
