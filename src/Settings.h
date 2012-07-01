@@ -5,6 +5,8 @@
 //  Copyright (c) 2012 HEAD-Genève. All rights reserved.
 //
 
+#pragma once
+
 #include "string"
 
 using namespace std;
