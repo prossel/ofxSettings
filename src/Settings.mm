@@ -94,7 +94,7 @@ void Settings::setFloat(float value, string sKey) {
 void Settings::setString(string value, string sKey) {
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    NSString* id = [NSString stringWithUTF8String:sKey.c_str()];
+    NSString* id = [NSString stringWithUTF8String:value.c_str()];
     [defaults setObject:id forKey:[NSString stringWithUTF8String:sKey.c_str()]];
 }
 
